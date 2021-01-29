@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Project Test!!</title>
+<title>ReserveWebapp Test!!</title>
 <!--------------------------------------bootstrap---------------------------------------------------------------------->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -30,10 +30,10 @@ body {
     padding-bottom: 0.7rem!important;">
   <div class="container-fluid d-flex align-items-center" style="padding-right: 30;">
     <h2 class="d-flex align-items-center fs-4 text-white mb-0">
-      <a href="/Project/index.php"><img src="img/05.png" width="38" height="30" class="me-3" alt="Bootstrap" ></a>
-      <a href="/Project/index.php"  class="ms-auto link-light">Reserve</a>
+      <a href="/ReserveWebapp/index.php"><img src="img/05.png" width="38" height="30" class="me-3" alt="Bootstrap" ></a>
+      <a href="/ReserveWebapp/index.php"  class="ms-auto link-light">Reserve</a>
     </h2>
-    <a href="/Project/Login.php" class="ms-auto link-light" hreflang="ar">Login</a>
+    <a href="/ReserveWebapp/Login.php" class="ms-auto link-light" hreflang="ar">Login</a>
   </div>
 </header>
 
@@ -57,7 +57,7 @@ body {
       <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2021/01/Red-Status-on-Web-01.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="5000">
-      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2020/03/Web_Article_COVID3-01.jpg" class="d-block w-100" alt="...">
+      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2016/07/kmuttarchive.png" class="d-block w-100" alt="...">
     </div>
    
     <div class="carousel-item" data-bs-interval="5000">

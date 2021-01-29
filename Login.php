@@ -28,10 +28,10 @@ background-color: #f5f5f5;
     padding-bottom: 0.7rem!important;">
   <div class="container-fluid d-flex align-items-center" style="padding-right: 30;">
     <h2 class="d-flex align-items-center fs-4 text-white mb-0">
-      <a href="/Project/index.php"><img src="img/05.png" width="38" height="30" class="me-3" alt="Bootstrap" ></a>
-      <a href="/Project/index.php"  class="ms-auto link-light">Reserve</a>
+      <a href="/ReserveWebapp/index.php"><img src="img/05.png" width="38" height="30" class="me-3" alt="Bootstrap" ></a>
+      <a href="/ReserveWebapp/index.php"  class="ms-auto link-light">Reserve</a>
     </h2>
-    <a href="/Project/Login.php" class="ms-auto link-light" hreflang="ar">Login</a>
+    <a href="/ReserveWebapp/Login.php" class="ms-auto link-light" hreflang="ar">Login</a>
   </div>
 </header>
 
