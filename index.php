@@ -9,7 +9,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!--------------------------------------tailwindcss---------------------------------------------------------------------->
+<link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet" />
 <!----------------------------------------Front Body------------------------------------------------------------------->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
 <style>
@@ -21,8 +23,13 @@ body {
 </style>
 <!----------------------------------------Front Body------------------------------------------------------------------->
 
+
+
+
+
+
 </head>
-<body>
+<body class="bg-light">
 
 <!---------------------------------------header page------------------------------------------------------------------------------->
 
@@ -54,7 +61,7 @@ body {
   <div class="carousel-inner">
     
     <div class="carousel-item active" data-bs-interval="5000">
-      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2021/01/Red-Status-on-Web-01.jpg" class="d-block w-100" alt="...">
+      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2021/01/Red-Status-on-Web-01.jpg" class="d-block w-100 " alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="5000">
       <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2016/07/kmuttarchive.png" class="d-block w-100" alt="...">
@@ -78,7 +85,26 @@ body {
 <!---------------------------------------carousel------------------------------------------------------------------------------->
 
 
+
 <!---------------------------------------List------------------------------------------------------------------------------->
+
+<p class="float-left" style="font-size:36px; padding-left:230px; padding-top:50px; ">ห้องทั้งหมด</p>
+
+<!-- Large button groups (default and split) -->
+<div class="btn-group" style="margin-left:30px; margin-top:55px; ">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Status
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item " href="#">ห้องทั้งหมด</a></li>
+    <li><a class="dropdown-item" href="#">ห้องว่าง</a></li>
+    
+  </ul>
+</div>
+
+
+
+
 <div class="album py-5 bg-light">
     <div class="container">
 
@@ -86,10 +112,15 @@ body {
 
         <?php for($i=1;$i<=6;$i++) { ?>
        
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-          <img src="img/07.jpg" alt="..."  class="d-block w-100">
-            <div class="card-body">
+        <div class=" col-md-4 transform hover:scale-105 duration-300" style="padding:2rem; " >
+        
+          <div class="card mb-4 shadow-sm rounded-lg w-90" >
+          
+          <img src="img/07.jpg" class="d-block w-100 rounded-md"  >
+          <!--button type="button" class="btn btn-secondary rounded-full  px-2.8" style="margin-left:340px;  margin-bottom:30px; margin-top:15px; position:absolute; display:block; font-size:13px">ปิดปรับปรุง</button-->
+          <!--div class=" btn-danger rounded-full py-1 px-2.5 active" style="margin-left:340px;  margin-bottom:30px; margin-top:15px; position:absolute; display:block; font-size:13px">มีคนจองแล้ว</div-->
+          <div class="btn-success rounded-full py-1 px-2.5 active" style="margin-left:360px;  margin-bottom:30px; margin-top:15px; position:absolute; display:block; font-size:13px">ห้องว่าง</div>
+            <div class="card-body" >
               <p class="card-text">ห้องประชุม 1</p>
               <div class="d-flex justify-content-between align-items-center">
                 
@@ -109,9 +140,9 @@ body {
 
 <!---------------------------------------footer------------------------------------------------------------------------------->
 
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer mt-auto py-3 bg-dark">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="link-light">Place sticky footer content here.</span>
   </div>
 </footer>
 
