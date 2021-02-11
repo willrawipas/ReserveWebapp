@@ -14,6 +14,8 @@
 <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet" />
 <!----------------------------------------Front Body------------------------------------------------------------------->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+
+
 <style>
 body {
    
@@ -64,11 +66,11 @@ body {
       <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2021/01/Red-Status-on-Web-01.jpg" class="d-block w-100 " alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="5000">
-      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2016/07/kmuttarchive.png" class="d-block w-100" alt="...">
+      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2021/02/Orange-%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1-on-WEB.jpg" class="d-block w-100" alt="...">
     </div>
    
     <div class="carousel-item" data-bs-interval="5000">
-      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2020/03/Web_eJournalMag-01.jpg" class="d-block w-100" alt="...">
+      <img src="https://www.lib.kmutt.ac.th/wp-content/uploads/2016/07/kmuttarchive.png" class="d-block w-100" alt="...">
     </div>
     
   </div>
